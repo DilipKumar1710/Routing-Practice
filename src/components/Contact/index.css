@@ -1,0 +1,31 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-image {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+.contact-heading {
+  color: #6d396b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-heading {
+    font-size: 45px;
+  }
+}

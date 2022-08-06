@@ -1,0 +1,67 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    padding: 33px;
+  }
+}
+
+.wave-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.wave-logo {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .wave-logo-container {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.wave-heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .wave-heading {
+    font-size: 16px;
+  }
+}
+
+.nav-items-container {
+  display: flex;
+  padding-left: 0px;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.route-link {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .route-link {
+    font-size: 16px;
+  }
+}
